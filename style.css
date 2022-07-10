@@ -1,0 +1,36 @@
+heading {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 10px 0px 10px 0px;
+}
+
+body {
+    background-color: #e0e0e0;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+strong {
+    color: #2493df;
+}
+
+section {
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+#buy {
+    background-color: #687373;
+    margin-top: 10px;
+    text-decoration-color: #fcfcfc;
+}
+
+footer {
+    font-size: 12px;
+    color: #595959;
+    text-align: center;
+    margin-top: 10px;
+}
