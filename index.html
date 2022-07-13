@@ -1,17 +1,17 @@
 <html>
-<!--Files are uploaded to Github public views-->
 <header>
     <title> Emmanuel's Ticketing Website</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
 </header>
 
 <body>
     <h1> Built from scratch using Sololearn tutorial</h1>
-    <section>
-        <a href="https://sololearnassets.azureedge.net/eiffel-tower.jpg" alt="Eiffel Tower" width="30%" target=_blank> Eiffel Tower </a>
-        <p><strong>The Eiffel Tower </strong> is a wrought-iron tower that stands <strong> 1,063 ft (324 m) </strong> tall in Paris.</p>
 
-        <p>Currently, <strong> the Eiffel Tower <strong> is the most-visited monument in the world with over <strong> 7 million </strong> visitors a year. </p>
+    <!--- <a href="https://sololearnassets.azureedge.net/eiffel-tower.jpg" alt="Eiffel Tower" width="30%" target=_blank> Eiffel Tower </a> -->
+    <img src="https://sololearnassets.azureedge.net/eiffel-tower.jpg">
+    <section>
+        <p>The <strong>Eiffel Tower </strong> is a wrought-iron tower that stands <strong> 1,063 ft (324 m) </strong> tall in Paris.</p>
+
+        <p>Currently,the <strong>Eiffel Tower </strong> is the most-visited monument in the world with over <strong> 7 million </strong> visitors a year. </p>
 
         <p>Visitors can choose to go up using the Tower lift or the stairs. There are<strong> 1,665 steps </strong> to the top.</p>
 
@@ -23,7 +23,9 @@
                 <li> Train: Champ de Mars - Tour Eiffel, line C </li>
             </ul>
         </p>
+    </section>
 
+    <section>
         <table border="1">
             <tr><b>Prices:</b></tr>
             <th>Category</th>
@@ -36,20 +38,26 @@
                 <td>Children</td>
                 <td>$5</td>
             </tr>
-
-
         </table>
-    </section> <br>
-
-    <section>
-        <label for="adults"> Adults </label>
-        <input type="text" id="adults">
-        <br><br>
-        <label for="children"> Children </label>
-        <input type="number" id="children">
-        <br>
-        <input type="button" value="Buy">
     </section>
+    <br>
+
+    <div class="form-section">
+
+        <section class="parent">
+            <form>
+                <label class="adul" for="adults"> Adults 
+                <input type="number" id="adults"></label>
+                <!--<br><br>-->
+                <label for="children"> Children 
+                <input type="number" id="children"></label>
+                <!---<br> -->
+                <label><input type="button" value="Buy" id="buy"></label>
+            </form>
+        </section>
+
+    </div>
+
 
 
 </body>

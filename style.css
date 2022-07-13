@@ -8,13 +8,42 @@ body {
     background-color: #e0e0e0;
 }
 
+img {
+    float: left;
+    margin-right: 10px;
+    width: 30%;
+    height: auto;
+}
+
 label {
     font-size: 16px;
     font-weight: 700;
+    color: #fcfcfc;
 }
 
 strong {
     color: #2493df;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid wide black;
+    padding: 10px;
+}
+
+th {
+    background-color: #2493df;
+    color: white;
+}
+
+li {
+    list-style-type: square;
+    list-style-position: inside;
+    padding-left: 30px;
 }
 
 section {
@@ -22,10 +51,66 @@ section {
     background-color: #ffffff;
 }
 
+.form {
+    background-color: #595959;
+    padding: 20px;
+}
+
+input {
+    display: flex;
+    text-align: center;
+    height: 40px;
+    width: 20%;
+}
+
+input[type="number"] {
+    padding: 2px;
+    width: 50px;
+    text-align: center;
+}
+
 #buy {
-    background-color: #687373;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #2493df;
     margin-top: 10px;
-    text-decoration-color: #fcfcfc;
+    color: #fcfcfc;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    height: 40px;
+}
+
+input[type="button"] {
+    background-color: #2493df;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    height: 40px;
+    width: 20%;
+}
+
+.parent {
+    background-color: #595959;
+    display: flex;
+}
+
+.adul {
+    padding-right: 40px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+.form-section {
+    flex: 1;
+    ;
 }
 
 footer {
