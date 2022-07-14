@@ -19,6 +19,9 @@ label {
     font-size: 16px;
     font-weight: 700;
     color: #fcfcfc;
+    display: block;
+    width: 70px;
+    margin-right: 80px;
 }
 
 strong {
@@ -51,40 +54,37 @@ section {
     background-color: #ffffff;
 }
 
-.form {
-    background-color: #595959;
-    padding: 20px;
-}
 
 input {
-    display: flex;
     text-align: center;
     height: 40px;
-    width: 20%;
+    width: 40%;
 }
 
 input[type="number"] {
     padding: 2px;
-    width: 50px;
+    width: 80px;
     text-align: center;
 }
 
 #buy {
     position: fixed;
     bottom: 0px;
-    right: 0px;
-    width: 100%;
+    left: auto;
+    right: 40px;
+    width: 90px;
     box-sizing: border-box;
     background-color: #2493df;
     margin-top: 10px;
+    margin-bottom: 47px;
     color: #fcfcfc;
     font-weight: bold;
     font-size: 16px;
     border: none;
-    height: 40px;
+    height: 60px;
 }
 
-input[type="button"] {
+/* input[type="button"] {
     background-color: #2493df;
     color: #ffffff;
     font-weight: bold;
@@ -92,25 +92,29 @@ input[type="button"] {
     border: none;
     height: 40px;
     width: 20%;
-}
+} */
 
 .parent {
     background-color: #595959;
-    display: flex;
 }
+.item  {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
 
 .adul {
     padding-right: 40px;
 }
 
 form {
-    display: flex;
     align-items: center;
 }
 
 .form-section {
     flex: 1;
-    ;
+    
 }
 
 footer {
